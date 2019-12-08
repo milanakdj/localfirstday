@@ -1,0 +1,68 @@
+pattern :r'h'
+
+sequence:hello world
+
+
+both are strings 
+
+
+
+alwaysn raw in pattern
+
+
+how to write a pattern
+a-z; 0-9
+
+'a' can be pattern, this means whereever there is a there is a mathc
+'ab' then ab is found then it is a match;'kebab'
+
+
+we want to create a class(regular expression class)
+
+
+pattern=r'\w'
+\w matches alpha numerica characeters([0-9],[a-z],[A-Z])
+
+so if you want a pattern which will take a or b or c
+pattern=[abc]
+
+all but abc
+
+pattern=[^abc]
+
+
+[abcd] is same as [a=d]
+
+
+
+
+pattern =r'\W' same as '^\w'
+
+
+'.' matches any characeters
+
+'*' zero or more time repeated alpha numerica characeters
+
+
+'+' one or more times 
+
+# with this we are going to check whether the enterned email address is valid or not
+
+
+
+abc@google.com
+
+alpha numerica characeters @ alpha numerica characeters . alpha numerica characeters
+
+
+
+
+@google.com does not work
+
+
+'\w + @ \w +\.\w+'
+
+stirng= """
+    ..............
+        """
+
